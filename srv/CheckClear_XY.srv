@@ -1,0 +1,4 @@
+MapCoord point
+---
+std_msgs/bool needsRefinement
+Barrier[] local_barriers

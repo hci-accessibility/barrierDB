@@ -1,0 +1,9 @@
+AccessConstraint_Profile profile
+int16 start_building
+int16 start_room
+MapCoord end
+---
+std_msgs/bool needsRefinement
+# TODO: dataType refinementData
+# TODO: dataType returnValues
+int16 goal_room
