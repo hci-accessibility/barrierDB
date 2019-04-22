@@ -58,6 +58,7 @@ def add_Navigate_server():
 	service_rxy = rospy.Service('navigate_rxy', Navigate_RXY, handle_Navigate_RXY)
 	service_CheckClear_XY = rospy.Service('checkclear_xy', CheckClear_XY, handle_CheckClear_XY)
 	service_apply_profile = rospy.Service('apply_profile', Apply_Profile, handle_Apply_Profile)
+	print("Services Registered.")
 	rospy.spin()
 
 if __name == "__main__":

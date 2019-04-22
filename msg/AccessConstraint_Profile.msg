@@ -5,4 +5,4 @@ uint8 length
 uint8 max_grade
 
 int32[] personal_barriers
-std_msgs/bool DAC_verrified
+bool DAC_verified
